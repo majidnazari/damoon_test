@@ -1,0 +1,16 @@
+{
+    "status": "OK",
+    "neighbourhood": "حر",
+    "municipality_zone": "11",
+    "state": "استان تهران",
+    "city": "تهران",
+    "in_traffic_zone": false,
+    "in_odd_even_zone": true,
+    "route_name": "امام خمینی",
+    "route_type": "primary",
+    "place": "دانشگاه فرماندهی و ستاد",
+    "district": "بخش مرکزی شهرستان تهران",
+    "formatted_address": "تهران، امام خمینی",
+    "village": null,
+    "county": "شهرستان تهران"
+}
