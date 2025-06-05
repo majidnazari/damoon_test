@@ -16,7 +16,7 @@ Route::get('/user', function (Request $request) {
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/packages', [TravelPackageController::class, 'store']);
-    Route::get('/packages-eager-load', [TravelPackageController::class, 'index']);
-    Route::get('/packages-with-join', [TravelPackageController::class, 'indexWithJoin']);
+    Route::get('/packages-eager-load', [TravelPackageController::class, 'index'])->name('travel-packages.index');
+    Route::get('/packages-with-join', [TravelPackageController::class, 'indexWithJoin'])->name('travel-packages-join');
     Route::get('/geo/save-output', [GeoServiceController::class, 'saveOutput']);
 });
